@@ -1,0 +1,33 @@
+CÓMO SUBIR ESTE PROYECTO A GITHUB (y completar enlace_repositorio.txt)
+=======================================================================
+
+El proyecto ya viene con Git inicializado localmente y con el historial de
+commits del desarrollo. Solo te faltan estos pasos:
+
+1. Entra a https://github.com y crea un repositorio NUEVO y VACÍO
+   (no marques "Add a README", ni ".gitignore", ni licencia — este proyecto
+   ya trae los suyos).
+   Nombre sugerido: plugin-jdbc-module
+
+2. GitHub te va a mostrar una URL como esta:
+   https://github.com/TU_USUARIO/plugin-jdbc-module.git
+
+3. Abre una terminal DENTRO de la carpeta del proyecto (donde está este
+   archivo) y ejecuta:
+
+   git remote add origin https://github.com/TU_USUARIO/plugin-jdbc-module.git
+   git branch -M main
+   git push -u origin main
+
+4. Si te pide iniciar sesión, usa tu usuario de GitHub y un Personal Access
+   Token (ya no se usa la contraseña normal). Lo generas en:
+   GitHub -> Settings -> Developer settings -> Personal access tokens.
+
+5. Una vez el push termine sin errores, entra a tu repositorio en el
+   navegador, copia el enlace (la URL que aparece arriba, ej.
+   https://github.com/TU_USUARIO/plugin-jdbc-module) y pégalo dentro del
+   archivo enlace_repositorio.txt, reemplazando el texto entre corchetes.
+
+6. Vuelve a comprimir toda la carpeta (con enlace_repositorio.txt ya
+   actualizado) y así sí quedaría lista para entregar como
+   VillarrealDiaz_AA2_EV01.zip

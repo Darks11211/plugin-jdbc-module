@@ -1,0 +1,13 @@
+Evidencia: GA7-220501096-AA2-EV01
+Proyecto: plugin-jdbc-module (modulo de plugins - Tienda de plugins de Rust)
+Aprendiz: Juan Sebastian Villarreal Diaz - Ficha 3186586
+
+Enlace del repositorio remoto (GitHub):
+[PEGA_AQUI_TU_ENLACE_DESPUES_DE_SUBIRLO]
+
+Nota: el proyecto ya se entrega inicializado con Git y con el historial de
+commits del desarrollo (ver carpeta .git incluida en el comprimido). Solo
+falta crear el repositorio remoto en tu cuenta de GitHub y hacer el push;
+sigue los pasos del archivo COMO_SUBIR_A_GITHUB.txt incluido en esta misma
+carpeta, y luego reemplaza la linea de arriba con el enlace real antes de
+comprimir y enviar la evidencia.
