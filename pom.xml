@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rustplugins</groupId>
+    <artifactId>plugin-jdbc-module</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>plugin-jdbc-module</name>
+    <description>
+        Modulo de codificacion (CRUD) del proyecto "Tienda de plugins de Rust",
+        evidencia GA7-220501096-AA2-EV01. Implementa insercion, consulta,
+        actualizacion y eliminacion sobre la tabla plugin_db.plugin usando
+        JDBC puro, segun lo visto en el componente formativo
+        "Construccion de aplicaciones con JAVA".
+    </description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- Driver JDBC oficial de MySQL -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.3.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>plugin-jdbc-module</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.rustplugins.pluginmodule.app.PluginModuleApp</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
