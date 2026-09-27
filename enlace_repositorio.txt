@@ -3,7 +3,7 @@ Proyecto: plugin-jdbc-module (modulo de plugins - Tienda de plugins de Rust)
 Aprendiz: Juan Sebastian Villarreal Diaz - Ficha 3186586
 
 Enlace del repositorio remoto (GitHub):
-[PEGA_AQUI_TU_ENLACE_DESPUES_DE_SUBIRLO]
+https://github.com/Darks11211/plugin-jdbc-module
 
 Nota: el proyecto ya se entrega inicializado con Git y con el historial de
 commits del desarrollo (ver carpeta .git incluida en el comprimido). Solo
